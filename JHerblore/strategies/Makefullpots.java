@@ -12,8 +12,6 @@ import org.rev317.min.api.wrappers.Item;
 public class Makefullpots implements Strategy {
 	private final int Prayerpot = 140;
 
-
-	
 	@Override
 	public boolean activate() {
 		if (Inventory.containts(Prayerpot) && Game.getOpenInterfaceId() == 5292) {
