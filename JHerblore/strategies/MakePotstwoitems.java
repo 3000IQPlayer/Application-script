@@ -11,7 +11,7 @@ import org.rev317.min.api.methods.Players;
 
 import JHerblore.enums.Potions;
 
-public class MakePotstwoitems implements Strategy {
+public class MakePotstwoitems implements Strategy { // This class name is kind've confusing, but makes a finished potions that require one step. 
 	 private final int ingrId;
 	 private final int herbId;
 
